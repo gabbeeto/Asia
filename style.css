@@ -1,0 +1,117 @@
+/* general apply */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* colors */
+html {
+  --main: black;
+  --secondary: white;
+
+  --fSize0: 3.5rem;
+  --fSize1: 2rem;
+  --fSize2: 1.5rem;
+  --fSize3: 1.2rem;
+
+  --paddingSize: 4px;
+  --radiusSize: calc(var(--paddingSize) * 2.5);
+}
+
+/* main applies */
+body {
+  background-color: var(--main);
+  color: var(--secondary);
+}
+
+button {
+  background-color: var(--main);
+  color: var(--secondary);
+
+  padding: var(--paddingSize);
+  border-radius: var(--radiusSize);
+  font-size: var(--fSize3);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+
+  color: var(--main);
+  background-color: var(--secondary);
+
+}
+
+/* center elements horizontally */
+#buttonContainer,
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: var(--fSize1);
+}
+
+h2 {
+  font-size: var(--fSize2);
+}
+
+
+h3 {
+  font-size: var(--fSize3);
+}
+
+header span {
+  font-size: var(--fSize0)
+}
+
+
+/* individual changes */
+
+header {
+  border-bottom: 2px solid var(--secondary);
+}
+
+#floaty, .date {
+  position: fixed;
+  border: 2px solid var(--secondary);
+  background: var(--main);
+  padding: var(--paddingSize);
+  border-radius: var(--radiusSize);
+  top: var(--paddingSize);
+  font-size: var(--fSize3);
+}
+
+#floaty{
+  left: calc(var(--paddingSize) * 0.7);
+ 
+}
+
+.date {
+  right: calc(var(--paddingSize) * 0.7);
+}
+
+#buttonContainer {
+  gap: var(--paddingSize);
+  margin-top: var(--paddingSize);
+}
+
+.pageContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+img {
+  --widthSize: 52vw;
+  width: var(--widthSize);
+  height: calc(var(--widthSize) * .6);
+  border-radius: var(--radiusSize);
+}
