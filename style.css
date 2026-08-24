@@ -77,7 +77,7 @@ header {
   border-bottom: 2px solid var(--secondary);
 }
 
-#floaty, .date {
+#floaty, .date,  .chapterShower{
   position: fixed;
   border: 2px solid var(--secondary);
   background: var(--main);
@@ -94,6 +94,14 @@ header {
 
 .date {
   right: calc(var(--paddingSize) * 0.7);
+}
+
+.chapterShower{
+  right: 50;
+  width: 50vw;
+  height: 6.7vw;
+  text-align: center;
+  font-size: var(--fSize2);
 }
 
 #buttonContainer {

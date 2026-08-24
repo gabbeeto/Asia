@@ -1,8 +1,5 @@
 const previousButton = document.getElementById("previous");
-const detailButton = document.getElementById("detail");
 const nextButton = document.getElementById("next");
-const statusTextElement = document.getElementById("status");
-let statusText = statusTextElement.innerHTML;
 let currentPage = 0
 const lastPage = pageContainer.length;
 
@@ -33,7 +30,7 @@ const numberText = document.getElementById("number");
 const contentContainer = document.getElementById("content")
 function updateCount() {
   numberText.innerText = `${currentPage + 1}/${lastPage}`
-  contentContainer.innerHTML = statusText == "spoil" ? pageContainer[currentPage] : pageContainerLong[currentPage];
+  contentContainer.innerHTML = pageContainer[currentPage];
 }
 
 updateCount()
@@ -42,9 +39,6 @@ previousButton.addEventListener(
   "click", previousClick
 )
 
-detailButton.addEventListener(
-  "click", spoilClick
-)
 
 nextButton.addEventListener(
   "click", nextClick
@@ -64,9 +58,6 @@ document.addEventListener("keydown", keyObj => {
     case "h":
       previousClick();
       break;
-    case " ":
-      spoilClick();
-      break;
   }
 })
 
@@ -81,17 +72,4 @@ function nextClick() {
   updateCount()
 }
 
-function spoilClick() {
-  if (statusText == "spoil") {
-    updateStatusText()
-  }
-  else {
-    updateStatusText("spoil")
-  }
-  updateCount()
-}
 
-function updateStatusText(text = "hide") {
-  statusText = text
-  statusTextElement.innerHTML = statusText
-}

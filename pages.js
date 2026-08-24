@@ -1,6 +1,5 @@
 const pageContainer = [
   smp("Welcome to our exhibition about Asia!",'int-0.png'),
-  smp("we decided we're going to talk about mainly about the Indian subcontinent(and of course india).", 'int-1.png'),
   simpleContentChapter(`<p><strong>Indian subcontinent</strong> — mainly India itself.</p>
       <img src="./img/IndianSubContinent.jpg" alt="Map of the Indian subcontinent" />`, 0),
   simpleContentChapter(`
