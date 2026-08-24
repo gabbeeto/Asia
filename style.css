@@ -7,13 +7,18 @@
 
 /* colors */
 html {
+  /* --main: white; */
+  /* --secondary: black; */
+
+
   --main: black;
   --secondary: white;
 
-  --fSize0: 3.5rem;
-  --fSize1: 2rem;
-  --fSize2: 1.5rem;
-  --fSize3: 1.2rem;
+  --fSize0: 4rem;
+  --fSize1: 2.7rem;
+  --fSize2: 2.5rem;
+  --fSize3: 2.1rem;
+  --fSize4: 1.6rem;
 
   --paddingSize: 4px;
   --radiusSize: calc(var(--paddingSize) * 2.5);
@@ -62,10 +67,16 @@ h2 {
 }
 
 
-h3 {
+h3,p,li {
   font-size: var(--fSize3);
 }
 
+
+blockquote{
+
+  font-size: var(--fSize4);
+  
+}
 header span {
   font-size: var(--fSize0)
 }
@@ -94,13 +105,14 @@ header {
 }
 
 .date {
+  width: 15vw;
   right: calc(var(--paddingSize) * 0.7);
 }
 
 .chapterShower{
   right: 50;
-  width: 55vw;
-  height: 8vh;
+  width: 70vw;
+  height: 9vh;
   text-align: center;
   font-size: var(--fSize2);
 }
@@ -119,7 +131,7 @@ header {
 }
 
 img {
-  --widthSize: 52vw;
+  --widthSize: 54vw;
   width: var(--widthSize);
   height: calc(var(--widthSize) * .6);
   border-radius: var(--radiusSize);
