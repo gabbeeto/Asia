@@ -75,6 +75,7 @@ header span {
 
 header {
   border-bottom: 2px solid var(--secondary);
+  height: 10vh;
 }
 
 #floaty, .date,  .chapterShower{
@@ -98,8 +99,8 @@ header {
 
 .chapterShower{
   right: 50;
-  width: 50vw;
-  height: 6.7vw;
+  width: 55vw;
+  height: 8vh;
   text-align: center;
   font-size: var(--fSize2);
 }
