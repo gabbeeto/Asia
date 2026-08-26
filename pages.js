@@ -300,41 +300,6 @@ const pageContainer = [
   simpleContentChapter(`<p><strong>Conservation</strong></p>
       <p>The movement for the protection of forests and wildlife is strong in India. A number of species, including the elephant, rhinoceros, and tiger, have been declared endangered, and numerous others—both large and small—are considered vulnerable or at risk. Legislative measures have declared certain animals protected species, and areas with particularly rich floral diversity have been adopted as biosphere reserves. Virtually no forests are left in private hands. Projects likely to cause ecological damage must be cleared by the national government's Ministry of Environment, Forest, and Climate Change. Despite such measures, the reduced areas of forests, savannas, and grasslands provide little hope that India's population of animals can be restored to what it was at the end of the 19th century.</p>
       <img src="./img/fm11.jpg">`, 13),
-  simpleContentChapter(`<p><strong>Levels &amp; Grade Organisation</strong></p>
-      <p>Official <span class="key-stat">5+3+3+4</span> structure:</p>
-      <ul>
-        <li><strong>Foundational:</strong> preschool + Classes 1–2 (ages 3–8)</li>
-        <li><strong>Preparatory:</strong> Classes 3, 4, 5 (ages 8–11)</li>
-        <li><strong>Middle:</strong> Classes 6, 7, 8 (ages 11–14)</li>
-        <li><strong>Secondary:</strong> Classes 9–10; <strong>Senior Secondary:</strong> Classes 11–12 (ages 14–18)</li>
-        <li><strong>Higher Education:</strong> vocational colleges then university</li>
-      </ul>
-      <p><strong>Degrees &amp; Certificates earned</strong></p>
-      <ul>
-        <li>End Class 10: <strong>Secondary School Certificate</strong></li>
-        <li>End Class 12: <strong>Higher Secondary / Senior Secondary Certificate</strong></li>
-        <li>Further: Vocational Diploma, Bachelor's Degree, Master's Degree, Doctorate</li>
-      </ul>
-      <img src="img/90.png">`, 14),
-  simpleContentChapter(`<p><strong>Recess &amp; Holidays</strong></p>
-      <ul>
-        <li><strong>Daily recess/lunch break:</strong> time to rest, eat, play, socialize, and play sports together.</li>
-        <li><strong>School Holidays:</strong>
-          <ul>
-            <li>Long Summer Vacation: May–June, about 5–6 weeks</li>
-            <li>Short Winter Break: late December–early January</li>
-            <li>Festive holidays: Diwali, Holi, Eid, Independence Day, Christmas; Sundays always off.</li>
-          </ul>
-        </li>
-      </ul>
-      <img src="img/91.jpg">`, 14),
-  simpleContentChapter(`<p><strong>What happens if caught cheating</strong></p>
-      <p>Strictly forbidden and punished seriously: exam paper cancelled, sometimes all subject results invalidated, must repeat full academic year, suspension. Serious cases face official penalties under anti-cheating laws. Marks become zero, certificate invalid, it delays moving up class or entering university.</p>
-      <blockquote>
-        “Academic integrity is the foundation of India's education system — cheating is not tolerated at any level.”
-        <cite>(University Grants Commission, India)</cite>
-      </blockquote>
-      <img src="img/92.jpg">`, 14),
   simpleContentChapter(`<p><strong>🏫 Government Public Schools of India</strong></p>
       <p>They are free of charge, accessible to everyone, follow the national CBSE or state curriculum, use simple uniforms, and provide classes in both rural and urban areas:</p>
       <ul>
@@ -343,7 +308,7 @@ const pageContainer = [
         <li>Sometimes students sit on the floor</li>
         <li>Use black chalkboards and work with basic supplies</li>
       </ul>
-      <img src="img/87.jpg">`, 15),
+      <img src="img/87.jpg">`, 14),
   simpleContentChapter(`<p><strong>✏️ Private Schools</strong></p>
       <p>Better facilities, neat classrooms, formal uniforms, teach English and special subjects, and also follow the CBSE or ICSE curriculum:</p>
       <ul>
@@ -352,7 +317,7 @@ const pageContainer = [
         <li>Dark blue and white uniforms with ties</li>
         <li>Offer art and sports activities</li>
       </ul>
-      <img src="img/88.jpg">`, 15),
+      <img src="img/88.jpg">`, 14),
   simpleContentChapter(`<p><strong>🎓 Well‑known Universities and Institutes (IIT, Central Universities)</strong></p>
       <p>Spacious classrooms, laboratories, libraries; university students learning together, carrying out projects and advanced studies:</p>
       <ul>
@@ -360,5 +325,12 @@ const pageContainer = [
         <li>Study groups</li>
         <li>Teachers giving lessons in large lecture halls</li>
       </ul>
-      <img src="img/89.jpg">`, 15)
+      <img src="img/89.jpg">`, 14),
+  simpleContentChapter(`<p><strong>What happens if caught cheating</strong></p>
+      <p>Strictly forbidden and punished seriously: exam paper cancelled, sometimes all subject results invalidated, must repeat full academic year, suspension. Serious cases face official penalties under anti-cheating laws. Marks become zero, certificate invalid, it delays moving up class or entering university.</p>
+      <blockquote>
+        “Academic integrity is the foundation of India's education system — cheating is not tolerated at any level.”
+        <cite>(University Grants Commission, India)</cite>
+      </blockquote>
+      <img src="img/92.jpg">`, 14),
 ];

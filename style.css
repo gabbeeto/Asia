@@ -7,12 +7,12 @@
 
 /* colors */
 html {
-  /* --main: white; */
-  /* --secondary: black; */
+  --main: white;
+  --secondary: black;
 
 
-  --main: black;
-  --secondary: white;
+  /* --main: black; */
+  /* --secondary: white; */
 
   --fSize0: 4rem;
   --fSize1: 2.7rem;

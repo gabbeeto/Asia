@@ -27,8 +27,7 @@ let  chapterContent = [
 "11: Arranged Marriages in India",
 "12: The Beautiful Flora in India ",
 "13: The Faunal Diversity in India ",
-"14: Decoding India's Education System",
-"15: The Many Faces of Indian Education",
+"14: The Many Faces of Indian Education",
 ];
 
 let years = [
@@ -48,8 +47,7 @@ let years = [
 "",
 "",
 "",
-"",
-  
+
 ];
 let year = years[chapter];
   let yearDisplayed = year.length == 0 ? '' : `<p class="date">${year}</p>`;
