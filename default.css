@@ -1,0 +1,120 @@
+    /* minimal – just enough for readability and mobile */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    /* chapter colour coding */
+    section.chapter-0 {
+      border-left-color: #b8860b;
+    }
+    
+    article.chapter-0 {
+      border:2px solid  #b8860b;
+    }
+
+    section.chapter-2 {
+      border-left-color: #8b2f2f;
+    }
+    
+    article.chapter-2 {
+      border:2px solid  #8b2f2f;
+    }
+
+    section.chapter-3 {
+      border-left-color: #4a6b3d;
+    }
+    
+    article.chapter-3 {
+      border:2px solid  #4a6b3d;
+    }
+
+    section.chapter-4 {
+      border-left-color: #b5651e;
+    }
+    
+    article.chapter-4 {
+      border:2px solid  #b5651e;
+    }
+
+    section.chapter-5 {
+      border-left-color: #6a4c8a;
+    }
+    
+    article.chapter-5 {
+      border:2px solid  #6a4c8a;
+    }
+
+    section.chapter-6 {
+      border-left-color: #a14242;
+    }
+    
+    article.chapter-6 {
+      border:2px solid  #a14242;
+    }
+
+    section.chapter-7 {
+      border-left-color: #2d6a6a;
+    }
+    
+    article.chapter-7 {
+      border:2px solid  #2d6a6a;
+    }
+
+    section.chapter-8 {
+      border-left-color: #7a5c2e;
+    }
+    
+    article.chapter-8 {
+      border:2px solid  #7a5c2e;
+    }
+
+    section.chapter-9 {
+      border-left-color: #5f7a8a;
+    }
+    
+    article.chapter-9 {
+      border:2px solid  #5f7a8a;
+    }
+
+
+    section.chapter-10 {
+      border-left-color: #898A5F;
+    }
+    
+    article.chapter-10 {
+      border:2px solid  #898A5F;
+    }
+
+    section.chapter-11 {
+      border-left-color: #8A5F6F;
+    }
+    
+    article.chapter-11 {
+      border:2px solid  #8A5F6F;
+    }
+
+
+    section.chapter-12 {
+      border-left-color: #638A5F;
+    }
+    
+    article.chapter-12 {
+      border:2px solid  #638A5F;
+    }
+
+    section.chapter-13 {
+      border-left-color: #8A815F;
+    }
+    
+    article.chapter-13 {
+      border:2px solid  #8A815F;
+    }
+
+    section.chapter-14 {
+      border-left-color: #5F888A;
+    }
+    
+    article.chapter-14 {
+      border:2px solid  #5F888A;
+    }

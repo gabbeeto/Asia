@@ -54,7 +54,7 @@ let year = years[chapter];
 
     return `
     <section class="pageContent">
-    <article class="chapterShower ch-${chapter}"> ${chapterContent[chapter]}</article>
+    <article class="chapterShower chapter-${chapter}"> ${chapterContent[chapter]}</article>
         ${html}
 
       ${yearDisplayed}
