@@ -5,6 +5,7 @@ function smp(text, imgSourceName, year="") {
       <h1>
         ${text}
       </h1>
+      <p>gabbeeto.github.io/Asia</p>
       <img src="./img/${imgSourceName}">
     </section>
     `
